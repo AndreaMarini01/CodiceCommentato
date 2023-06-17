@@ -1,0 +1,79 @@
+.promozione{
+    margin-top: 20px;
+    background-color: #76b718;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+.retropromozione{
+    margin-top: 20px;
+    background-color: #76b718;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.Titolo{
+    z-index: -1;
+    margin-top: 30px;
+}
+
+.utente{
+    margin-top: 20px;
+    background-color: #0a619f;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.retroutente{
+    margin-top: 20px;
+    background-color: #0a619f;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: none;
+}
+
+.numeroCoupon{
+    font-size: 30px;
+    color: #5377d0;
+}
+
+.tipoStatistica{
+    font-size: 30px;
+    color: #777777;
+}
+
+.statsButton{
+    position: relative;
+    float: right;
+}
+
+.invisibile{
+    visibility: hidden;
+    height: 0;
+}

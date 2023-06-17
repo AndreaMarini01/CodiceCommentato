@@ -1,0 +1,141 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+h2{
+    margin-block-start: 2em;
+    margin-right: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+/* Aggiunta del codice CSS del primo file */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 50px;
+    max-width: 800px;
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+
+
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.navbar-right a {
+    float: left;
+    color: #27896d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position:relative;
+    right:15px;
+    margin-top: 23px;
+}
+
+.footer{
+    height:94px;
+}
+
+.footer h2{
+    color: #27896d;
+    text-align: left;
+    margin-top: 0px;
+}
+
+textarea{
+    width: 100%;
+    height: 60px;
+    font-size: medium;
+    margin-top:15px;
+}
+
+
+
+.errore {
+    color: #f93d00;
+    font-size: 16px;
+    margin-top: 15px;
+    float: left;
+    position: relative;
+    left:-30px;
+
+}
+
+.erroreDescrizione{
+    color: #f93d00;
+    font-size: 16px;
+    float: left;
+    position: relative;
+    left:-30px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+}
+
+.erroreLogo{
+    color: #f93d00;
+    font-size: 16px;
+    margin-top: 5px;
+    position: relative;
+    right:27px;
+}

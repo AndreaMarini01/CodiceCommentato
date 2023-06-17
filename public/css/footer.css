@@ -1,0 +1,72 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #A4D0A4;
+    color: #27896d;
+    z-index: 3;
+
+}
+.footer h2{
+    color: #27896d;
+    text-align: left;
+}
+.footer e1{
+    color: #27896d;
+    text-align: center;
+    position: absolute;
+    right: 80%;
+    top: 50%;
+}
+.footer e2{
+    color: #27896d;
+    text-align: center;
+    position: absolute;
+    right: 55%;
+    top: 50%;
+}
+.footer e3{
+    color: #27896d;
+    text-align: center;
+    position: absolute;
+    right: 30%;
+    top: 50%;
+}
+.footer e4{
+    color: #27896d;
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+
+}
+
+.footer left{
+    color: #27896d;
+    text-align: center;
+    position: absolute;
+    right: 85%;
+    top: 50%;
+}
+
+.footer right{
+    text-align: center;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    color: #27896d;
+}
+
+.footer text{
+    text-align: left;
+    color: #27896d;
+}
+
+.footer center{
+    position: absolute;
+    right: 40%;
+    top: 50%;
+    text-align: center;
+    color: #27896d;
+}

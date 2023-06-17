@@ -1,0 +1,123 @@
+.bottoni1{
+    display: inline-block;
+    float: right;
+    height: 35px;
+    width: 150px;
+    background-color:#04AA6D ;
+    border-radius: 5px;
+    border: 0.1px solid black;
+    margin-bottom: 30px;
+}
+
+.bottoni2{
+    display: inline-block;
+    float: right;
+    height: 35px;
+    width: 150px;
+    background-color:#04AA6D ;
+    border-radius: 5px;
+    border: 0.1px solid black;
+    margin-bottom: 30px;
+
+}
+
+.promozione{
+    margin-top: 50px;
+    background-color: #76b718;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.aggiungiOfferta button{
+    height: 180px;
+    width: 98%;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #acadaa;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+
+}
+
+.nomeCoupon{
+    visibility: hidden;
+}
+
+.filtri{
+    width: 700px;
+    height: 90px;
+    display:none;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    z-index: 1;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.filtri p,label{
+    margin-left: 10px;
+}
+
+
+#filter-button {
+    width: 250px;
+    height: 50px;
+    font-size: large;
+    font-weight: bold;
+    float: left;
+    margin-top: 40px;
+}
+
+
+#close-button{
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+    float:right;
+    margin-right: 3px;
+    position: relative;
+    bottom: 45px;
+
+}
+
+
+.body{
+    z-index: 0;
+}
+
+.horizontal{
+    display: inline;
+}
+
+.ricerca{
+    margin-left: 10px;
+}
+
+.searched-content{
+    position:relative;
+    bottom:3px;
+}
+
+.salvaCoupon{
+    display: inline-block;
+    float: left;
+    height: 35px;
+    width: 150px;
+    background-color:#04AA6D ;
+    border-radius: 5px;
+    border: 0.1px solid black;
+    margin-bottom: 30px;
+}

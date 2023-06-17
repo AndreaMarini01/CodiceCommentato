@@ -1,0 +1,68 @@
+.lista-aziende {
+    overflow: hidden;
+    margin-top: 35px;
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-bottom: 50px;
+    border-bottom: 10px;
+    padding-bottom: -20px;
+
+}
+.lista-aziende button{
+    float: right;
+    height: 35px;
+    width: 150px;
+    background-color:#04AA6D ;
+    border-radius: 5px;
+    border: 0.1px solid black;
+
+
+}
+
+.lista-aziende li{
+    margin-bottom: 30px;
+    background-color: #76b718;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 80px;
+    border-radius: 10px;
+}
+
+.nomeAzienda{
+    visibility: hidden;
+}
+
+.bottoni1{
+    display: inline-block;
+    float: left;
+}
+
+.bottoni2{
+    display: inline-block;
+    float: right;
+}
+
+.aggiungiAzienda button{
+    height: 180px;
+    width: 98%;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #acadaa;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+
+.navbar-right a.active{
+    background-color: #04AA6D;
+    color: white;
+}

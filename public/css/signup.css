@@ -1,0 +1,112 @@
+body {
+    background-color: #F7E1AE;
+    font-size: 1rem;
+}
+
+h1 {
+    font-weight: 300;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+}
+
+.column {
+    display: flex;
+    column-gap: 40px;
+}
+.register-table {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.register-table td {
+    padding: 10px;
+}
+
+.register-table input[id="username"]{
+    width: 460px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: medium;
+    height: 20px;
+}
+
+.register-table input[type="password"],
+.register-table input[id="confermaPassword"],
+.register-table input[id="email"],
+.register-table input[id="telefono"],
+.register-table input[id="nome"],
+.register-table input[id="cognome"],
+.register-table input[id="dataDiNascita"]
+{
+    width: 200px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.register-table select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-table .button-cell {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.register-table .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #04AA6D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-table .btn-primary:hover {
+    background-color: #04AA6D;
+}
+
+#login-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #04AA6D;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+#login-link:hover {
+    color: #04AA6D;
+}
+
+.erroreUsername{
+    color: #f93d00;
+    font-size: 12px;
+    position: relative;
+    right:5%;
+    margin-bottom: 2px;
+}
+
+.errore {
+    color: #f93d00;
+    font-size: 12px;
+    position: relative;
+    right:10%;
+    margin-bottom: 2px;
+}
+
+

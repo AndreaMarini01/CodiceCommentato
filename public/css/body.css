@@ -1,0 +1,25 @@
+body {
+    margin-top: 70px; /* per evitare che il contenuto venga nascosto dalla navbar */
+    background: #F7E1AE;
+    min-height: 70px;
+    overflow-x:hidden;
+}
+.zone{
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    position:relative;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+}
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}

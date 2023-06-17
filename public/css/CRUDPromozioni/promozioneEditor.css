@@ -1,0 +1,152 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+h2{
+    margin-block-start: 2em;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+/* Aggiunta del codice CSS del primo file */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    font-size: 24px;
+}
+
+form {
+    margin-top: 50px;
+    max-width: 800px;
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.navbar-right a {
+    float: left;
+    color: #27896d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position:relative;
+    right:15px;
+    margin-top: 23px;
+}
+
+.footer{
+    height:94px;
+}
+
+.footer h2{
+    color: #27896d;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.errore {
+    color: #f93d00;
+    font-size: 16px;
+    margin-top: 10px;
+    float: left;
+    position: relative;
+    left:-25px;
+
+}
+
+input[type="date"] {
+    width:60%;
+    height:25px;
+    margin-top: 20px;
+}
+
+select {
+    width:20%;
+    height:35px;
+    margin-top: 20px;
+}
+
+.erroreScadenza {
+    color: #f93d00;
+    font-size: 16px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+.noAziende{
+    color: darkred;
+    font-size: xxx-large;
+    margin-top: 250px;
+}
+
+.bottone_indietro button{
+    height: 35px;
+    margin-bottom: 80px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 30px;
+}

@@ -1,0 +1,58 @@
+.titolo{
+    font-size: 30px;
+    color: #777777;
+    margin-top: 40px;
+}
+
+
+
+.staff{
+    margin-top: 20px;
+    background-color: #27c081;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.bottoni1{
+    display: inline-block;
+    float: left;
+}
+
+.bottoni2{
+    display: inline-block;
+    float: right;
+}
+
+.aggiungiStaff button{
+    height: 180px;
+    width: 98%;
+    font-size: 100px;
+    text-align: center;
+    margin-bottom:20px;
+    background-color: #acadaa;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.utente{
+    margin-top: 20px;
+    background-color: #0a619f;
+    color: #f2f2f2;
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}

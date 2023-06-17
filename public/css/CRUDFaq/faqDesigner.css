@@ -1,0 +1,38 @@
+.domanda{
+    height: 50px;
+    width:500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.testo{
+    margin-right: 10px;
+    margin-top: -30px;
+    position: relative;
+    bottom:60px;
+    font-family: Arial;
+}
+
+.risposta{
+    height: 50px;
+    width:500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+}
+
+.testo2{
+    margin-right: 16px;
+    margin-top: -30px;
+    position: relative;
+    bottom:60px;
+    font-family: Arial;
+}
+
+.button{
+    width:120px;
+    height: 30px;
+    background-color:#04AA6D;
+    border-radius: 10px;
+}
