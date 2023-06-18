@@ -82,7 +82,7 @@ class filterController extends Controller
                    <p>Oggetto Offerta:' . $coupon->oggetto . '</p>
                    <p id="scontistica"> Scontistica:' . $coupon->scontistica . ' </p>
                     <p id="nomeAzienda"> Nome Azienda: ' . $coupon->nomeAzienda . ' </p>
-                    <button class="bottoni2" onclick="redirectToRoute(\'' . route('visualPromozione', ['idPromozione' => $coupon->idPromozione]) . '\')">Visualizza</button>
+                    <button class="bottoni2" onclick="redirectToRoute(\'' . route('visualPromozione', ['info' => $coupon->idPromozione]) . '\')">Visualizza</button>
                     </div>';
 
         }
