@@ -68,17 +68,14 @@ class filterController extends Controller
                    <p>Oggetto Offerta:' . $coupon->oggetto . '</p>
                    <p id="scontistica"> Scontistica:' . $coupon->scontistica . ' </p>
                     <p id="nomeAzienda"> Nome Azienda: ' . $coupon->nomeAzienda . ' </p>
-                    <button class="bottoni2" onclick="redirectToRoute(\'' . route('visualPromozione', ['idPromozione' => $coupon->idPromozione]) . '\')">Visualizza</button>
+                    <button class="bottoni2" onclick="redirectToRoute(\'' . route('visualPromozione', ['info' => $coupon->idPromozione]) . '\')">Visualizza</button>
                     <button class="salvaCoupon" onclick="redirectToRoute(\'' . route('salvaCoupon', ['idPromozione' => $coupon->idPromozione]) . '\')">Salva Coupon</button>
                     </div>';
                 }
                 return response($output);
         }
         //Uguale a sopra per un utente non loggato che quindi non può salvare il coupon
-        $dataOdierna= new DateTime(date("Y-m-d"));
         foreach ($filteredCoupons as $coupon) {
-            $dataScadenza = new DateTime($coupon->dataScadenza);
-            if ($dataOdierna <= $dataScadenza) {
                 $output .=
                     '<div class="promozione">
                    <p>Nome Offerta: ' . $coupon->nomePromozione . '</p>
@@ -87,7 +84,7 @@ class filterController extends Controller
                     <p id="nomeAzienda"> Nome Azienda: ' . $coupon->nomeAzienda . ' </p>
                     <button class="bottoni2" onclick="redirectToRoute(\'' . route('visualPromozione', ['idPromozione' => $coupon->idPromozione]) . '\')">Visualizza</button>
                     </div>';
-            }
+
         }
         return response($output);
     }
